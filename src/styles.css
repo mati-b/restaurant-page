@@ -1,0 +1,115 @@
+
+
+body {
+    background-image: url(./restaurant.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed ;
+    background-size: cover ;
+    margin: 0;
+    padding: 0;
+    color: olive;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgba(0,0,0 , 0.8) ;
+    height: 200px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    font-family: inherit;
+    color: inherit;
+    cursor: pointer;
+    border-style: none;
+    outline: none;
+    background-color: rgb(137, 150, 123);
+    gap: 10px;
+    height: 2rem;
+    width: 6rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+
+}
+
+#content {
+    padding: 4rem;
+    margin: 6rem;
+    gap: 50px;
+    max-width: 700px;
+    background: rgba(0,0,0 , 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#content .imagen-chef {
+    width: 300px;
+    height: auto;
+    border-radius: 50% ;
+    
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    padding: 1rem;
+    background: rgba(0,0,0 , 0.8);
+    position: fixed;
+    bottom: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.menu-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.item img {
+    
+    border-radius: 0.5rem;
+
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 5px;
+    border: olive solid;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
